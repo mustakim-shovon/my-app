@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SecondPage">
+    <View
+        android:background="@color/divider_color"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+    <ListView
+        android:layout_gravity="center"
+        android:id="@+id/ListViewSecondPage"
+        android:divider="@color/divider_color"
+        android:dividerHeight="2dp"
+        android:listSelector="@color/list_selecter_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+    <View
+        android:background="@color/divider_color"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+</LinearLayout>

@@ -1,0 +1,136 @@
+<html>
+<head>
+<title>SixthPage.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #000080; font-weight: bold;}
+.s1 { color: #000000;}
+.s2 { color: #0000ff;}
+.s3 { color: #008000; font-weight: bold;}
+.s4 { color: #808080; font-style: italic;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+SixthPage.java</font>
+</center></td></tr></table>
+<pre><span class="s0">package </span>com.noyonhossen.myapplication;
+
+<span class="s0">import </span>androidx.appcompat.app.AppCompatActivity;
+
+<span class="s0">import </span>android.os.Bundle;
+<span class="s0">import </span>android.widget.TextView;
+
+<span class="s0">public class </span>SixthPage <span class="s0">extends </span>AppCompatActivity {
+    TextView textView;
+    String[] listValue = <span class="s0">new </span>String[<span class="s2">6</span>];
+
+    @Override
+    <span class="s0">protected void </span>onCreate(Bundle savedInstanceState) {
+        <span class="s0">super</span>.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_sixth_page);
+
+        textView = (TextView) findViewById(R.id.TextViewSixthPageID);
+
+        Bundle bundle = getIntent().getExtras();
+        <span class="s0">if </span>(bundle != <span class="s0">null</span>) {
+            String text = bundle.getString(<span class="s3">&quot;tag5&quot;</span>);
+            setTitle(text);
+            String value = <span class="s3">&quot;&quot;</span>;
+            <span class="s0">if </span>(text.equals(<span class="s3">&quot;SICMA Rotavator-CTS185&quot;</span>)) {
+
+                listValue = getResources().getStringArray(R.array.sixth_page_content_1);
+            } <span class="s0">else if </span>(text.equals(<span class="s3">&quot;SONALIKA Smart Rotavator&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_2);
+            }
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;SICMA Rotavator-CTS165&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_3);
+            }
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;SICMA Rotavator-CTS155&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_4);
+            }
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;Power Tiller-R16&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_5);
+            }
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;Power Tiller-R28&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_6);
+            }
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;ACI Smart Power Tiller&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_7);
+            }
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;Tractor-DI35RX&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_8);
+            }
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;Tractor-DI45RX&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_9);
+            }
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;Tractor-DI50RX&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_10);
+            }
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;Tractor-DI60RX&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_11);
+            }
+            <span class="s4">//2</span>
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;Item 1&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_12);
+            }
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;Item 2&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_13);
+            }
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;Item 3&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_14);
+            }
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;Item 4&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_15);
+            }
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;Item 5&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_16);
+            }
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;Item 6&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_17);
+            }
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;Item 7&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_18);
+            }
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;Item 8&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_19);
+            }
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;Item 9&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_20);
+            }
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;Item 10&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_21);
+            }
+            <span class="s4">//2</span>
+            <span class="s4">//3</span>
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;Item 11&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_22);
+            }
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;Item 12&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_23);
+            }
+            <span class="s4">//3</span>
+            <span class="s4">//4</span>
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;Item 13&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_24);
+            }
+            <span class="s0">else if </span>(text.equals(<span class="s3">&quot;Item 14&quot;</span>)) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_25);
+            }
+            <span class="s4">//4</span>
+
+
+            value = listValue[<span class="s2">0</span>] + <span class="s3">&quot;</span><span class="s0">\n</span><span class="s3">&quot;</span>;
+            value += listValue[<span class="s2">1</span>] + <span class="s3">&quot;</span><span class="s0">\n</span><span class="s3">&quot;</span>;
+            value += listValue[<span class="s2">2</span>] + <span class="s3">&quot;</span><span class="s0">\n</span><span class="s3">&quot;</span>;
+            value += listValue[<span class="s2">3</span>] + <span class="s3">&quot;</span><span class="s0">\n</span><span class="s3">&quot;</span>;
+            value += listValue[<span class="s2">4</span>] + <span class="s3">&quot;</span><span class="s0">\n</span><span class="s3">&quot;</span>;
+            value += listValue[<span class="s2">5</span>] + <span class="s3">&quot;</span><span class="s0">\n</span><span class="s3">&quot;</span>;
+            textView.setText(value);
+        }
+    }
+}</pre>
+</body>
+</html>

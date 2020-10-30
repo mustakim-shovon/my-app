@@ -1,0 +1,722 @@
+<resources>
+    <string name="app_name">Fram Machineries</string>
+
+    <string-array name="first_page_content">
+        <item>Modern</item>
+    </string-array>
+
+    <string-array name="second_page_content">
+        <item>Tillage</item>
+        <item>Planting</item>
+        <item>Inter-cultural</item>
+        <item>Irrigation</item>
+        <item>Harvesting</item>
+        <item>Threshing</item>
+    </string-array>
+    <string-array name="third_page_content">
+        <item>Company</item>
+        <item>Workshop</item>
+        <item>Institute</item>
+    </string-array>
+    <string-array name="third_page_content_planting">
+        <item>Company</item>
+        <item>Workshop</item>
+        <item>Institute</item>
+    </string-array>
+    <string-array name="fourth_page_1_content">
+        <item>ACI Ltd.</item>
+        <item>Metal Private Ltd.</item>
+        <item>Alim Industires Ltd.</item>
+        <item>Abedin Equipment Ltd.</item>
+    </string-array>
+    <string-array name="fourth_page_2_content">
+        <item>Uttaran</item>
+        <item>Krishi Engineering </item>
+        <item>Janata Engineering</item>
+        <item>Mahabub Engineering</item>
+    </string-array>
+    <string-array name="fourth_page_3_content">
+        <item>BMWRI</item>
+        <item>BARI</item>
+        <item>BSRI</item>
+        <item>BRRI</item>
+        <item>RDA</item>
+        <item>BAU</item>
+        <item>HSTU</item>
+    </string-array>
+    <string-array name="fifth_page_content">
+        <item>SICMA Rotavator-CTS185</item>
+        <item>SONALIKA Smart Rotavator</item>
+        <item>SICMA Rotavator-CTS165</item>
+        <item>SICMA Rotavator-CTS155</item>
+        <item>Power Tiller-R16</item>
+        <item>Power Tiller-R28</item>
+        <item>ACI Smart Power Tiller</item>
+        <item>Tractor-DI35RX</item>
+        <item>Tractor-DI45RX</item>
+        <item>Tractor-DI50RX</item>
+        <item>Tractor-DI60RX</item>
+    </string-array>
+    <string-array name="fifth_page_content_2">
+        <item>Power Tiller-GN121</item>
+        <item>Power Tiller-GN121(16)</item>
+        <item>Power Tiller-GN121(20)</item>
+        <item>Rotavator MASCHIO H-145</item>
+        <item>Rotavator MASCHIO H-165</item>
+        <item>Rotavator MASCHIO H-185</item>
+        <item>Harrow</item>
+        <item>Disc Plow</item>
+        <item>Tractor TAFE 7250DI</item>
+        <item>Tractor TAFE 8502DI</item>
+    </string-array>
+    <string-array name="fifth_page_content_3">
+        <item>Power Tiller AL101</item>
+        <item>Power Tiller GN121</item>
+        <item>Power Tiller GN151</item>
+        <item>Power Tiller DF12</item>
+        <item>Power Tiller DF16</item>
+
+    </string-array>
+    <string-array name="AC_Ltd_planting">
+        <item>Rice Transplanter Daedong Dp480</item>
+        <item>Rice Transplanter Daedong S3-680</item>
+        <item>YANMAR Rice Transplanter</item>
+        <item>ACI Seeder</item>
+
+
+    </string-array>
+    <string-array name="Metal_Private_Ltd_planting">
+        <item>Rice Transplanter</item>
+        <item>Seeder (Metal P. Ltd.)</item>
+        <item>Bed Planter  </item>
+        <item>Fiona Seed drill</item>
+
+
+    </string-array>
+    <string-array name="Abedin_Equipment_Ltd_planting">
+        <item>Vaccuum Precision Planter</item>
+
+
+
+    </string-array>
+<!--    Inter-cultural-->
+    <string-array name="AC_Ltd_Inter_cultural">
+        <item>Inter_cultural 11 Inter_cultural</item>
+        <item>Item 12</item>
+        <item>Item 13</item>
+
+    </string-array>
+    <string-array name="Metal_Private_Ltd_Inter_cultural">
+        <item>Inter_cultural 11</item>
+        <item>Item 12</item>
+        <item>Item 13</item>
+
+    </string-array>
+    <string-array name="Alim_Industires_Ltd_Inter_cultural">
+        <item>Inter_cultural 11</item>
+        <item>Item 12</item>
+        <item>Item 13</item>
+
+    </string-array>
+    <string-array name="Abedin_Equipment_Ltd_Inter_cultural">
+        <item>Inter_cultural 11</item>
+        <item>Item 12</item>
+        <item>Item 13</item>
+
+    </string-array>
+    <!--    Irrigation-->
+    <string-array name="AC_Ltd_Irrigation">
+        <item>Irrigation 11 Inter_cultural</item>
+        <item>Item 12</item>
+        <item>Item 13</item>
+
+    </string-array>
+    <string-array name="Metal_Private_Ltd_Irrigation">
+        <item>Irrigation 11</item>
+        <item>Item 12</item>
+        <item>Item 13</item>
+
+    </string-array>
+    <string-array name="Alim_Industires_Ltd_Irrigation">
+        <item>Irrigation 11</item>
+        <item>Item 12</item>
+        <item>Item 13</item>
+
+    </string-array>
+    <string-array name="Abedin_Equipment_Ltd_Irrigation">
+        <item>Irrigation 11</item>
+        <item>Item 12</item>
+        <item>Item 13</item>
+
+    </string-array>
+    <!--    Harvesting-->
+    <string-array name="AC_Ltd_Harvesting">
+        <item>ACI Reaper</item>
+        <item>YANMAR Mini Combine Harvester</item>
+        <item>ACI Mini Combine Harvester</item>
+
+    </string-array>
+    <string-array name="Metal_Private_Ltd_Harvesting">
+        <item>Combine Harvester(Metal Pvt. Ltd.)</item>
+        <item>Reaper(Metal Pvt. Ltd.)</item>
+
+    </string-array>
+    <string-array name="Alim_Industires_Ltd_Harvesting">
+        <item>Harvesting 11</item>
+        <item>Item 12</item>
+        <item>Item 13</item>
+
+    </string-array>
+    <string-array name="Abedin_Equipment_Ltd_Harvesting">
+        <item>Harvesting 11</item>
+        <item>Item 12</item>
+        <item>Item 13</item>
+
+    </string-array>
+    <!--    Threshing-->
+    <string-array name="AC_Ltd_Threshing">
+        <item>Thresher S-1100DF</item>
+
+    </string-array>
+    <string-array name="Metal_Private_Ltd_Threshing">
+        <item>Rice and Wheat Thresher(Metal Pvt. Ltd.)</item>
+        <item>Metal Maize Thresher</item>
+
+
+    </string-array>
+    <string-array name="Alim_Industires_Ltd_Threshing">
+        <item>Threshing 11</item>
+        <item>Item 12</item>
+        <item>Item 13</item>
+
+    </string-array>
+    <string-array name="Abedin_Equipment_Ltd_Threshing">
+        <item>Threshing 11</item>
+        <item>Item 12</item>
+        <item>Item 13</item>
+
+    </string-array>
+    <string-array name="fifth_page_content_4">
+        <item>Combined Harvester Kubota Pro 88</item>
+        <item>Combined Harvester Kubota –DC-70G plus </item>
+        <item>Combined Harvester Kubota –Pro-588i-G</item>
+        <item>Combined Harvester Kubota – DC 70H plus</item>
+        <item>Tractor CASEIH JX75T</item>
+        <item>Tractor CASEIH JX70T</item>
+        <item>Tractor CASEIH JX55T</item>
+        <item>Tractor CASEIH JX50T</item>
+        <item>BREVIGLIERI QA Rotavator</item>
+        <item>Rotavator Model- B60WPS165</item>
+        <item>Rotavator Model- B60WPS185</item>
+        <item>Rotavator Model- B60WPS205</item>
+
+    </string-array>
+    <string-array name="sixth_page_content_1">
+        <item>Model no-CST185</item>
+        <item>Blades-54</item>
+        <item>Effective width-185cm or 73inch</item>
+        <item>Effective depth-20cm or 8inch</item>
+        <item>Weight-370Kg</item>
+        <item>Price-285000taka</item>
+    </string-array>
+    <string-array name="sixth_page_content_2">
+        <item>Sonalika Smart Rotavator</item>
+        <item>Blades-48</item>
+        <item>Effective width-156cm or 57inch</item>
+        <item>Effective depth-20cm or 8inch</item>
+        <item>Weight-300Kg</item>
+        <item>Price-200000</item>
+    </string-array>
+    <string-array name="sixth_page_content_3">
+        <item>Model no-CST165</item>
+        <item>Blades-48</item>
+        <item>Effective width-165cm or 65inch</item>
+        <item>Effective depth-20cm or 8inch</item>
+        <item>Weight-315Kg</item>
+        <item>Price-275000</item>
+    </string-array>
+    <string-array name="sixth_page_content_4">
+        <item>Model no-CST155</item>
+        <item>Blades-42</item>
+        <item>Effective width-156cm or 57inch</item>
+        <item>Effective depth-20cm or 8inch</item>
+        <item>Weight-300Kg</item>
+        <item>Price-270000taka</item>
+    </string-array>
+    <string-array name="sixth_page_content_5">
+        <item>Model no-Regular16 Version 2.0</item>
+        <item>Horsepower-16</item>
+        <item>Blades-18</item>
+        <item>Sprocket-10</item>
+        <item>Bit-Strong Iron Wheel with 20bit</item>
+        <item>Price-No data</item>
+    </string-array>
+    <string-array name="sixth_page_content_6">
+        <item>Horsepower-20</item>
+        <item>Blades-28</item>
+        <item>Sprocket-10</item>
+        <item>Bit-Strong Iron Wheel with 20bit</item>
+        <item>Area Covered by 900mm Rotary Fuel Efficient Engine</item>
+        <item>Efficiency-60%</item>
+    </string-array>
+    <string-array name="sixth_page_content_7">
+        <item>ACI Smart Power Tiller</item>
+        <item>Hand lever easy operation</item>
+        <item>Original steel made heavy chassis</item>
+        <item>RPM control speed</item>
+        <item>Belt Type gear System</item>
+        <item>Eco Friendly</item>
+    </string-array>
+    <string-array name="sixth_page_content_8">
+        <item>Horsepower-37</item>
+        <item>Cylinder-3</item>
+        <item>Engine-2780cc</item>
+        <item>Steering-Mechanical</item>
+        <item>Trolley size-90 to 100cft</item>
+        <item>Price-9,70,000taka</item>
+    </string-array>
+    <string-array name="sixth_page_content_9">
+        <item>Horsepower-45</item>
+        <item>Cylinder-3</item>
+        <item>Engine-2780cc</item>
+        <item>Steering-Mechanical</item>
+        <item>Trolley size-100 to 120cft</item>
+        <item>Price-1,080,000taka</item>
+    </string-array>
+    <string-array name="sixth_page_content_10">
+        <item>Horsepower-50</item>
+        <item>Cylinder-3</item>
+        <item>Engine-2893cc</item>
+        <item>Steering-Mechanical or Power</item>
+        <item>Trolley size-100 to 120cft</item>
+        <item>Price-1,180,000taka</item>
+    </string-array>
+    <string-array name="sixth_page_content_11">
+        <item>Horsepower-60</item>
+        <item>Cylinder-4</item>
+        <item>Engine-3707cc</item>
+        <item>Steering-Power</item>
+        <item>Trolley size-150cft</item>
+        <item>Price-1,300,000taka</item>
+    </string-array>
+    <string-array name="sixth_page_content_12">
+        <item>Chassis size-2950*980*1240mm</item>
+        <item>Rotary tiller width 600mm, blades 18</item>
+        <item>Engine hp 12 </item>
+        <item>Weight-150Kg</item>
+        <item>4 stroke single cylinder</item>
+        <item>RPM-1200\nFuel Tank-12litre</item>
+
+    </string-array>
+    <string-array name="sixth_page_content_13">
+        <item>Model no- GN121(16)</item>
+        <item>Chassis size-2950*980*1240mm\nTyre size rear- 6.00*12inch </item>
+        <item>Engine Hp-16\nRotary tiller width 600mm, blades 18\nEngine model – S1100NL </item>
+        <item>4 stroke single cylinder\nWeight -156Kg</item>
+        <item>RPM-2200rpm</item>
+        <item>Fuel tank- 12liter</item>
+    </string-array>
+    <string-array name="sixth_page_content_14">
+        <item>Chassis size-2950*980*1240mm</item>
+        <item>Engine model – ZS1110NL\nTyre size rear- 6.00*12inch </item>
+        <item>Engine hp 20 \nRotary tiller width 700mm, blades 28</item>
+        <item>4 stroke single cylinder\nWeight -180Kg</item>
+        <item>Ground clearance – 210mm\nWater cooled</item>
+        <item>4 stroke single cylinder\nFuel tank- 12liter</item>
+    </string-array>
+    <string-array name="sixth_page_content_15">
+        <item>\n\nModel no- MASCHIO H-145</item>
+        <item>Working width-145cm</item>
+        <item>Blades – 42</item>
+        <item>Cutting Depth -18cm</item>
+        <item>Price 2,45,000 tk</item>
+        <item>\n</item>
+    </string-array>
+    <string-array name="sixth_page_content_16">
+        <item>\n\nModel no- MASCHIO H-165</item>
+        <item>Working width-145cm</item>
+        <item>Blades – 48</item>
+        <item>Cutting Depth -18cm</item>
+        <item>Price 2,60,000 tk</item>
+        <item>\n</item>
+    </string-array>
+    <string-array name="sixth_page_content_17">
+        <item>\n\nModel no- MASCHIO H-185</item>
+        <item>Working width-145cm</item>
+        <item>Blades – 54</item>
+        <item>Cutting Depth -18cm</item>
+        <item>Price 2,65,000 tk</item>
+        <item>\n</item>
+    </string-array>
+    <string-array name="sixth_page_content_18">
+        <item>Metal offset disk harrow</item>
+
+        <item>Number of disks- 7+7=14 and 10+10=20</item>
+        <item>Disk diameter-20 inch and 22inch</item>
+        <item>Working width 160 to 220cm and 230 to 280cm</item>
+        <item>Weight 370kg-575kg</item>
+        <item>\n</item>
+    </string-array>
+    <string-array name="sixth_page_content_19">
+        <item>\n\n</item>
+        <item>Metal disk plough</item>
+        <item>Number of disk-3</item>
+        <item>Diameter of disk- 26inch</item>
+        <item>\n</item>
+        <item>\n</item>
+    </string-array>
+    <string-array name="sixth_page_content_20">
+        <item>Model no-TAFE 7250 DI</item>
+        <item>Hp-50</item>
+        <item>Cylinder-3 nos</item>
+        <item>Cubic Capacity-2500cc\nHydraulic System- Hydraulic</item>
+        <item>Weight-300Kg\n8forward 2 reverse\nTyres: front: 6.00*16, rear:13.6*28</item>
+        <item>Price-11,85,000tk</item>
+    </string-array>
+    <string-array name="sixth_page_content_21">
+        <item>Model no- 8502DI</item>
+        <item>Engine – 81hp</item>
+        <item>Cylinder-4 nos\nTransmission-8forward 2 reverse</item>
+        <item>Cubic Capacity-400cc\nHydraulic System- Hydraulic</item>
+        <item>Steering: power</item>
+        <item>Tyres: front 7.50*16, rear 18.4*30</item>
+    </string-array>
+    <string-array name="sixth_page_content_22">
+        <item>-Model no- AL101</item>
+        <item>Hp-8.5</item>
+        <item>Weight-275 kg</item>
+        <item>Efficiency: 10 to 12 bigha/day</item>
+        <item>Leveler can be used</item>
+        <item>Suitable for dry and wet soil</item>
+    </string-array>
+    <string-array name="sixth_page_content_23">
+        <item>Model no-GN121</item>
+        <item>Engine :2000 to 2200rpm</item>
+        <item>Hp-12</item>
+        <item>Tank capacity 9 to 12 lit</item>
+        <item>Weight- 480kg </item>
+        <item>Blade-18 nos</item>
+    </string-array>
+    <string-array name="sixth_page_content_24">
+        <item>Model no. GN151</item>
+        <item>Engine:2000 to 2200rpm</item>
+        <item>four stock</item>
+        <item>Hp-16</item>
+        <item>Tank capacity: 14 to 16 liter</item>
+        <item>Blade-24 nos</item>
+    </string-array>
+    <string-array name="sixth_page_content_25">
+        <item>-Model Kubota Pro 88</item>
+        <item>Engine type 4 cylinder vertical </item>
+        <item>diesel engine\nwater cooling </item>
+        <item>Fuel tank capacity 50 liter </item>
+        <item>Hopper capacity 120 kg </item>
+        <item>Traveling speed 5.94km/hr</item>
+    </string-array>
+    <string-array name="sixth_page_content_26">
+        <item>Model Kubota –DC-70G plus</item>
+        <item>Engine type 4 cylinder vertical</item>
+        <item>diesel engine\nwater cooling </item>
+        <item>Fuel tank capacity 85 liter</item>
+        <item>Hopper capacity 1000kg</item>
+        <item>Traveling speed 1.85km/hr</item>
+    </string-array>
+    <string-array name="sixth_page_content_27">
+        <item>Model Kubota –Pro-588i-G</item>
+        <item>Engine type 4 cylinder vertical</item>
+        <item>diesel engine\nwater cooling </item>
+        <item>Fuel tank capacity 50 liter</item>
+        <item>Hopper capacity 1000kg</item>
+        <item>Traveling speed 2km/hr</item>
+    </string-array>
+    <string-array name="sixth_page_content_28">
+        <item>Model Kubota – DC 70H plus</item>
+        <item>Engine type 4 cylinder vertical</item>
+        <item>diesel engine\nwater cooling </item>
+        <item>Fuel tank capacity 85 liter</item>
+        <item>Hopper capacity 3000kg</item>
+        <item>Traveling speed 1.85km/hr</item>
+    </string-array>
+    <string-array name="sixth_page_content_29">
+        <item>Model- CASEIH JX75T</item>
+        <item>Local Brand Name- QA Tractor</item>
+        <item>Hp-75</item>
+        <item>Number of cylinder-5</item>
+        <item>Engine capacity- 3908cc</item>
+        <item>Engine revolution speed- 2500rpm</item>
+    </string-array>
+    <string-array name="sixth_page_content_30">
+        <item>Model- CASEIH JX70T</item>
+        <item>Hp-65</item>
+        <item>Number of cylinder-4</item>
+        <item>Engine capacity- 3908cc</item>
+        <item>Engine revolution speed- 2500rpm</item>
+        <item>\n</item>
+    </string-array>
+    <string-array name="sixth_page_content_31">
+        <item>Model- CASEIH JX55T</item>
+        <item>Hp-55</item>
+        <item>Number of cylinder-3</item>
+        <item>Engine capacity- 2931cc</item>
+        <item>Engine revolution speed- 2500rpm</item>
+        <item>\n</item>
+
+    </string-array>
+    <string-array name="sixth_page_content_32">
+        <item>Model- CASEIH JX50T</item>
+        <item>Hp-50</item>
+        <item>Number of cylinder-3</item>
+        <item>Engine capacity- 2931cc</item>
+        <item>Engine revolution speed- 2500rpm</item>
+        <item>\n</item>
+
+    </string-array>
+    <string-array name="sixth_page_content_33">
+        <item>\n\nModel- B60WPS145</item>
+        <item>Engine Required Power 35 to 70hp</item>
+        <item>Blade 42</item>
+        <item>Weight 376kg</item>
+        <item>Cutting width 57inch</item>
+        <item>\n</item>
+    </string-array>
+    <string-array name="sixth_page_content_34">
+        <item>\n\nModel- B60WPS165</item>
+        <item>Engine Required Power 45 to 70hp</item>
+        <item>Blade 48</item>
+        <item>Weight 416kg</item>
+        <item>Cutting width 65inch</item>
+        <item>\n</item>
+    </string-array>
+    <string-array name="sixth_page_content_35">
+        <item>\n\nModel- B60WPS185</item>
+        <item>Engine Required Power 50 to 70hp</item>
+        <item>Blade 54</item>
+        <item>Weight 441kg</item>
+        <item>Cutting width 72inch</item>
+        <item>\n</item>
+    </string-array>
+    <string-array name="sixth_page_content_36">
+        <item>\n\nModel- B60WPS205</item>
+        <item>Engine Required Power 55 to 70hp</item>
+        <item>Blade 60</item>
+        <item>Weight 476kg</item>
+        <item>Cutting width 81inch</item>
+        <item>\n</item>
+    </string-array>
+    <string-array name="sixth_page_content_37">
+        <item>Model no- Daedong Dp480</item>
+        <item>Working type Transplanter</item>
+        <item>Transplant 1acre field by 1.25 hours</item>
+        <item>Fuel consumption- Very economic</item>
+        <item>20 trays one required to transplant 1 acre field</item>
+        <item>\n</item>
+    </string-array>
+    <string-array name="sixth_page_content_38">
+        <item>Model no. Daedong S3680</item>
+        <item>Riding type transplanter</item>
+        <item>Transplant  1acre field by 1 hours</item>
+        <item>Fuel consumption- Very economic</item>
+        <item>Transplant 6 row at a time</item>
+        <item>\n</item>
+    </string-array>
+    <string-array name="sixth_page_content_39">
+        <item>YANMAR Rice Transplanter</item>
+        <item>Walking type transplanter</item>
+        <item>Transplant  1acre field by 1 hours</item>
+        <item>Fuel consumption- Very economic</item>
+        <item>Transplant 6 row at a time</item>
+        <item>Price- 440000tk</item>
+    </string-array>
+    <string-array name="sixth_page_content_40">
+        <item>\n\nInclined type</item>
+        <item>Both Seeding and tilling at a time</item>
+        <item>Horsepower 12 to 16</item>
+        <item>Row to row distance and seed rate are easily controlled</item>
+        <item>Time saves 35%</item>
+        <item>Reduces production cost by 40% </item>
+    </string-array>
+    <string-array name="sixth_page_content_41">
+        <item>Model no- ACI Diesel engine S-1100DF</item>
+        <item>Rated engine power-16HP</item>
+        <item>Threshing capacity 1500 to 2000kg/hr</item>
+        <item>Weight approx. 200 to 350kg</item>
+        <item>Grain separation rate -98%</item>
+        <item>Close drum with air blower and screening threshing drum</item>
+    </string-array>
+    <string-array name="sixth_page_content_42">
+        <item>Model no.DF12</item>
+        <item>Engine -2000 rpm\nSingle cylinder water cooling</item>
+        <item>four stock</item>
+        <item>Hp-12</item>
+        <item>Tank capacity: 9 to 12 liter</item>
+        <item>Blade-18 nos</item>
+    </string-array>
+    <string-array name="sixth_page_content_43">
+        <item>Model no-DF16</item>
+        <item>Engine -2000 rpm\nSingle cylinder water cooling</item>
+        <item>four stock</item>
+        <item>Hp-16</item>
+        <item>Tank capacity: 14 to 16 liter</item>
+        <item>Blade-24 nos</item>
+    </string-array>
+    <string-array name="sixth_page_content_44">
+        <item>Engine – 2.5hp</item>
+        <item>Production encourage 20~30%</item>
+        <item>Transplanting without injured of seedling</item>
+        <item>Equal seedling spacing</item>
+        <item>Field capacity .5acre per hour</item>
+        <item>High capacity and multipurpose washing pump</item>
+    </string-array>
+    <string-array name="sixth_page_content_45">
+        <item>Metal seeder\nHp-12 to 16hp</item>
+        <item>Length 140cm\nWidth 90cm</item>
+        <item>Height -74cm\nWeight 150kg</item>
+        <item>Effective depth 120cm\nRow to row distance-20~60cm</item>
+        <item>Number of row : 2 to 6\nSeed planting depth 2~8cm</item>
+        <item>Seed planting capacity-.4 to .5 ha/hour</item>
+    </string-array>
+    <string-array name="sixth_page_content_46">
+        <item>Engine 16hp</item>
+        <item>Blades: 24 nos</item>
+        <item>Width: 60cm\n2types cup: 1 for maize other for wheat,pulse,soybean</item>
+        <item>Sowing line: 1 for maize and others for 2</item>
+        <item>Cup type metering device for perfect dropping\n</item>
+        <item>Price: 55,000</item>
+    </string-array>
+    <string-array name="sixth_page_content_47">
+        <item>Model no D-78BHA</item>
+        <item>Effective width:1500mm</item>
+        <item>Row spacing: adjustable,125mm-1500mm</item>
+        <item>No. of rows: variable, max,13nos</item>
+        <item>Field capacity:0.85acre/hour</item>
+        <item>Hopper capacity:150liter</item>
+    </string-array>
+    <string-array name="sixth_page_content_48">
+        <item>Seed Hopper- 5liter</item>
+        <item>Three Point Linkage and vacuum fan</item>
+        <item>Adjustable show opener</item>
+        <item>Showing unit- kit for small seed</item>
+        <item>Soil leveler wheel</item>
+        <item>Closing wheel</item>
+    </string-array>
+    <string-array name="sixth_page_content_49">
+        <item>Horsepower- 6.5</item>
+        <item>Tubeless tyre</item>
+        <item>Honda engine</item>
+        <item>No loss occur when cutting crops</item>
+        <item>Production cost is minimum for using petrol</item>
+        <item>\n</item>
+    </string-array>
+    <string-array name="sixth_page_content_50">
+        <item>Model no- YANMAR Mini Combine Harvester</item>
+        <item>Operate both wet and dry soil</item>
+        <item>Harvest both wheat and rice</item>
+        <item>3~3.5hour time per acre</item>
+        <item>6~8lit fuel required per acre</item>
+        <item>\n</item>
+    </string-array>
+    <string-array name="sixth_page_content_51">
+        <item>ACI Mini Combine Harvester</item>
+        <item>1acre per 3hour</item>
+        <item>6~lit fuel required per acre</item>
+        <item>Operate both wet and dry soil</item>
+        <item>Warranty-1year</item>
+        <item>\n</item>
+    </string-array>
+    <string-array name="sixth_page_content_52">
+        <item>Engine:60hp</item>
+        <item>Cylinder: 4nos</item>
+        <item>Cubic capacity: 4444cc</item>
+        <item>Steering: power\nGrain tank capacity: 1ton</item>
+        <item>Field capacity: 1ha/hour\nCutting width: 9feet</item>
+        <item>Easily harvest of logged crops like Rice, Wheat, Maize etc</item>
+    </string-array>
+    <string-array name="sixth_page_content_53">
+        <item>Model no MR120</item>
+        <item>Engine: 6.5hp</item>
+        <item>Cutting width:120cm</item>
+        <item>Field capacity:1ha/hour</item>
+        <item>Weight:175kg</item>
+        <item>Price-1,80,000tk</item>
+    </string-array>
+    <string-array name="sixth_page_content_54">
+        <item>Multiple crops can thresh like Rice, Wheat, mustard etc</item>
+        <item>Engine:12hp</item>
+        <item>Threshing drum dia:13inch</item>
+        <item>Threshing drum length:40inch</item>
+        <item>Threshing attached with three wheels for easily movement</item>
+        <item>Capacity:1.5ton/hour (rice) 1.2ton/hour(wheat)</item>
+    </string-array>
+    <string-array name="sixth_page_content_55">
+        <item>Model no-CST155</item>
+        <item>Blades-42</item>
+        <item>Effective width-156cm or 57inch</item>
+        <item>Effective depth-20cm or 8inch</item>
+        <item>Weight-300Kg</item>
+        <item>Price-280000</item>
+    </string-array>
+    <string-array name="sixth_page_content_56">
+        <item>Engine-12hp</item>
+        <item>Threshing drum dia:20inch and length 13inch</item>
+        <item>Threshing attached with three wheels for easy movement</item>
+        <item>Capacity: 3ton/hour</item>
+        <item>\n</item>
+        <item>\n</item>
+    </string-array>
+    <string-array name="sixth_page_content_57">
+        <item>Model no-CST155</item>
+        <item>Blades-42</item>
+        <item>Effective width-156cm or 57inch</item>
+        <item>Effective depth-20cm or 8inch</item>
+        <item>Weight-300Kg</item>
+        <item>Price-280000</item>
+    </string-array>
+    <string-array name="sixth_page_content_58">
+        <item>Model no-CST155</item>
+        <item>Blades-42</item>
+        <item>Effective width-156cm or 57inch</item>
+        <item>Effective depth-20cm or 8inch</item>
+        <item>Weight-300Kg</item>
+        <item>Price-280000</item>
+    </string-array>
+    <string-array name="sixth_page_content_59">
+        <item>Model no-CST155</item>
+        <item>Blades-42</item>
+        <item>Effective width-156cm or 57inch</item>
+        <item>Effective depth-20cm or 8inch</item>
+        <item>Weight-300Kg</item>
+        <item>Price-280000</item>
+    </string-array>
+    <string-array name="sixth_page_content_60">
+        <item>Model no-CST155</item>
+        <item>Blades-42</item>
+        <item>Effective width-156cm or 57inch</item>
+        <item>Effective depth-20cm or 8inch</item>
+        <item>Weight-300Kg</item>
+        <item>Price-280000</item>
+    </string-array>
+    <string-array name="sixth_page_content_61">
+        <item>Model no-CST155</item>
+        <item>Blades-42</item>
+        <item>Effective width-156cm or 57inch</item>
+        <item>Effective depth-20cm or 8inch</item>
+        <item>Weight-300Kg</item>
+        <item>Price-280000</item>
+    </string-array>
+    <string-array name="sixth_page_content_62">
+        <item>Model no-CST155</item>
+        <item>Blades-42</item>
+        <item>Effective width-156cm or 57inch</item>
+        <item>Effective depth-20cm or 8inch</item>
+        <item>Weight-300Kg</item>
+        <item>Price-280000</item>
+    </string-array>
+    <string-array name="sixth_page_content_63">
+        <item>Model no-CST155</item>
+        <item>Blades-42</item>
+        <item>Effective width-156cm or 57inch</item>
+        <item>Effective depth-20cm or 8inch</item>
+        <item>Weight-300Kg</item>
+        <item>Price-280000</item>
+    </string-array>
+</resources>
