@@ -28,18 +28,10 @@ public class MainActivity extends AppCompatActivity{
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 String value = listValue[i];
-                if(value.equals("Indigeneous")){
-                    //Toast.makeText(MainActivity.this,"Value: "+value,Toast.LENGTH_SHORT).show();
-                    Toast.makeText(MainActivity.this,"Features not implemented yet",Toast.LENGTH_SHORT).show();
-                }
-                else if(value.equals("Intermediate")){
-                    //Toast.makeText(MainActivity.this,"Value: "+value,Toast.LENGTH_SHORT).show();
-                    Toast.makeText(MainActivity.this,"Features not implemented yet",Toast.LENGTH_SHORT).show();
-                }
-                else if(value.equals("Modern")){
+                if(value.equals("Modern")){
                     //Toast.makeText(MainActivity.this,"Value: "+value,Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(MainActivity.this,SecondPage.class);
-                    intent.putExtra("tag1",value) ;
+                    intent.putExtra("Modern",value) ;
                     startActivity(intent);
                 }
             }

@@ -23,14 +23,8 @@ public class SecondPage extends AppCompatActivity {
 
         Bundle bundle = getIntent().getExtras();
         if(bundle!=null){
-            String text = bundle.getString("tag1");
-            if(text.equals("Indigeneous")){
-                Toast.makeText(SecondPage.this,"Features not implemented yet",Toast.LENGTH_SHORT).show();
-            }
-            else if(text.equals("Intermediate")){
-                Toast.makeText(SecondPage.this,"Features not implemented yet",Toast.LENGTH_SHORT).show();
-            }
-            else if(text.equals("Modern")){
+            String text = bundle.getString("Modern");
+            if(text.equals("Modern")){
                 setTitle(text);
                 listValue = getResources().getStringArray(R.array.second_page_content);
                 ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );

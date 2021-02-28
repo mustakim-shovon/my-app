@@ -35,19 +35,19 @@ public class ThirdPage extends AppCompatActivity {
                         if(value.equals("Company")){
                             //Toast.makeText(ThirdPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(ThirdPage.this,FourthPage_1.class);
-                            intent.putExtra("tag3","Company") ;
+                            intent.putExtra("tag3","Company_tillage") ;
                             startActivity(intent);
                         }
                         else if(value.equals("Workshop")){
                             //Toast.makeText(ThirdPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(ThirdPage.this,FourthPage_2.class);
-                            intent.putExtra("tag3","Workshop") ;
+                            intent.putExtra("tag3","Workshop_tillage") ;
                             startActivity(intent);
                         }
                         else if(value.equals("Institute")){
                             //Toast.makeText(ThirdPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(ThirdPage.this,FourthPage_3.class);
-                            intent.putExtra("tag3","Institute") ;
+                            intent.putExtra("tag3","Institute_tillage") ;
                             startActivity(intent);
                         }
                     }

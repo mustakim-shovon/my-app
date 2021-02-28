@@ -23,7 +23,9 @@ public class FifthPage extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();
         if(bundle!=null){
             String text = bundle.getString("tag4");
-            //ACI Ltd
+
+            /* --Company-- */
+            //Tillage Company
             if(text.equals("ACI Ltd.")){
                 setTitle(text);
                 listValue = getResources().getStringArray(R.array.fifth_page_content);
@@ -63,7 +65,7 @@ public class FifthPage extends AppCompatActivity {
                 });
 
             }
-            else if(text.equals("Alim Industires Ltd.")){
+            else if(text.equals("Alim Industries Ltd.")){
                 setTitle(text);
                 listValue = getResources().getStringArray(R.array.fifth_page_content_3);
                 ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
@@ -103,8 +105,8 @@ public class FifthPage extends AppCompatActivity {
                 });
 
             }
-            //planting
-            if(text.equals("ACI Ltd._planting")){
+            //planting Company
+            else if(text.equals("ACI Ltd._planting")){
                 setTitle(text);
                 listValue = getResources().getStringArray(R.array.AC_Ltd_planting);
                 ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
@@ -143,9 +145,9 @@ public class FifthPage extends AppCompatActivity {
                 });
 
             }
-            else if(text.equals("Alim Industires Ltd._planting")){
+            else if(text.equals("Alim Industries Ltd._planting")){
                 setTitle(text);
-                listValue = getResources().getStringArray(R.array.fifth_page_content_3);
+                listValue = getResources().getStringArray(R.array.Alim_Industries_Ltd_planting);
                 ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
                 listView.setAdapter(adapter);
                 listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -183,8 +185,8 @@ public class FifthPage extends AppCompatActivity {
                 });
 
             }
-            //Inter-cultural
-            if(text.equals("ACI Ltd._Inter_cultural")){
+            //Inter-cultural Company
+            else if(text.equals("ACI Ltd._Inter_cultural")){
                 setTitle(text);
                 listValue = getResources().getStringArray(R.array.AC_Ltd_Inter_cultural);
                 ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
@@ -223,9 +225,9 @@ public class FifthPage extends AppCompatActivity {
                 });
 
             }
-            else if(text.equals("Alim Industires Ltd._Inter_cultural")){
+            else if(text.equals("Alim Industries Ltd._Inter_cultural")){
                 setTitle(text);
-                listValue = getResources().getStringArray(R.array.Alim_Industires_Ltd_Inter_cultural);
+                listValue = getResources().getStringArray(R.array.Alim_Industries_Ltd_Inter_cultural);
                 ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
                 listView.setAdapter(adapter);
                 listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -263,8 +265,8 @@ public class FifthPage extends AppCompatActivity {
                 });
 
             }
-            //Irrigation
-            if(text.equals("ACI Ltd._Irrigation")){
+            //Irrigation Company
+            else if(text.equals("ACI Ltd._Irrigation")){
                 setTitle(text);
                 listValue = getResources().getStringArray(R.array.AC_Ltd_Irrigation);
                 ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
@@ -303,9 +305,9 @@ public class FifthPage extends AppCompatActivity {
                 });
 
             }
-            else if(text.equals("Alim Industires Ltd._Irrigation")){
+            else if(text.equals("Alim Industries Ltd._Irrigation")){
                 setTitle(text);
-                listValue = getResources().getStringArray(R.array.Alim_Industires_Ltd_Irrigation);
+                listValue = getResources().getStringArray(R.array.Alim_Industries_Ltd_Irrigation);
                 ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
                 listView.setAdapter(adapter);
                 listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -343,8 +345,8 @@ public class FifthPage extends AppCompatActivity {
                 });
 
             }
-            //Harvesting
-            if(text.equals("ACI Ltd._Harvesting")){
+            //Harvesting Company
+            else if(text.equals("ACI Ltd._Harvesting")){
                 setTitle(text);
                 listValue = getResources().getStringArray(R.array.AC_Ltd_Harvesting);
                 ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
@@ -383,9 +385,9 @@ public class FifthPage extends AppCompatActivity {
                 });
 
             }
-            else if(text.equals("Alim Industires Ltd._Harvesting")){
+            else if(text.equals("Alim Industries Ltd._Harvesting")){
                 setTitle(text);
-                listValue = getResources().getStringArray(R.array.Alim_Industires_Ltd_Harvesting);
+                listValue = getResources().getStringArray(R.array.Alim_Industries_Ltd_Harvesting);
                 ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
                 listView.setAdapter(adapter);
                 listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -423,8 +425,8 @@ public class FifthPage extends AppCompatActivity {
                 });
 
             }
-            //Threshing
-            if(text.equals("ACI Ltd._Threshing")){
+            //Threshing Company
+            else if(text.equals("ACI Ltd._Threshing")){
                 setTitle(text);
                 listValue = getResources().getStringArray(R.array.AC_Ltd_Threshing);
                 ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
@@ -463,9 +465,9 @@ public class FifthPage extends AppCompatActivity {
                 });
 
             }
-            else if(text.equals("Alim Industires Ltd._Threshing")){
+            else if(text.equals("Alim Industries Ltd._Threshing")){
                 setTitle(text);
-                listValue = getResources().getStringArray(R.array.Alim_Industires_Ltd_Threshing);
+                listValue = getResources().getStringArray(R.array.Alim_Industries_Ltd_Threshing);
                 ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
                 listView.setAdapter(adapter);
                 listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -504,6 +506,863 @@ public class FifthPage extends AppCompatActivity {
 
             }
 
+            /* --Workshop-- */
+            //tillage workshop
+            else if(text.equals("Workshop_Uttaran_tillage")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.Workshop_Uttaran_tillage);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("Workshop_Krishi_Engineering_tillage")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.Workshop_Krishi_Engineering_tillage);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            //planting workshop
+            else if(text.equals("Workshop_Uttaran_planting")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.Workshop_Uttaran_planting);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("Workshop_Krishi_Engineering_planting")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.Workshop_Krishi_Engineering_planting);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            //inter cultural workshop
+            else if(text.equals("Workshop_Uttaran_Inter_cultural")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.Workshop_Uttaran_Inter_cultural);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("Workshop_Krishi_Engineering_Inter_cultural")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.Workshop_Krishi_Engineering_Inter_cultural);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            //irrigation workshop
+            else if(text.equals("Workshop_Uttaran_Irrigation")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.Workshop_Uttaran_Irrigation);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("Workshop_Krishi_Engineering_Irrigation")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.Workshop_Krishi_Engineering_Irrigation);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            //harvesting workshop
+            else if(text.equals("Workshop_Uttaran_Harvesting")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.Workshop_Uttaran_Harvesting);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("Workshop_Krishi_Engineering_Harvesting")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.Workshop_Krishi_Engineering_Harvesting);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            //Threshing workshop
+            else if(text.equals("Workshop_Uttaran_Threshing")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.Workshop_Uttaran_Threshing);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("Workshop_Krishi_Engineering_Threshing")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.Workshop_Krishi_Engineering_Threshing);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+
+
+
+            /* --Institute-- */
+            //tillage Institute
+            else if(text.equals("BMWRI_tillage")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BMWRI_tillage);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("BARI_tillage")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BARI_tillage);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("BRRI_tillage")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BRRI_tillage);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("BAU_tillage")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BAU_tillage);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("HSTU_tillage")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.HSTU_tillage);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            //planting Institute
+            else if(text.equals("BMWRI_planting")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BMWRI_planting);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("BARI_planting")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BARI_planting);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("BRRI_planting")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BRRI_planting);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("BAU_planting")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BAU_planting);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("HSTU_planting")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.HSTU_planting);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            //inter cultural Institute
+            else if(text.equals("BMWRI_Inter_cultural")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BMWRI_Inter_cultural);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("BARI_Inter_cultural")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BARI_Inter_cultural);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("BRRI_Inter_cultural")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BRRI_Inter_cultural);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("BAU_Inter_cultural")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BAU_Inter_cultural);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("HSTU_Inter_cultural")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.HSTU_Inter_cultural);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            //irrigation Institute
+            else if(text.equals("BMWRI_Irrigation")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BMWRI_Irrigation);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("BARI_Irrigation")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BARI_Irrigation);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("BRRI_Irrigation")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BRRI_Irrigation);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("BAU_Irrigation")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BAU_Irrigation);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("HSTU_Irrigation")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.HSTU_Irrigation);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            //harvesting Institute
+            else if(text.equals("BMWRI_Harvesting")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BMWRI_Harvesting);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("BARI_Harvesting")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BARI_Harvesting);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("BRRI_Harvesting")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BRRI_Harvesting);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("BAU_Harvesting")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BAU_Harvesting);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("HSTU_Harvesting")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.HSTU_Harvesting);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            //Threshing Institute
+            else if(text.equals("BMWRI_Threshing")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BMWRI_Threshing);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("BARI_Threshing")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BARI_Threshing);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("BRRI_Threshing")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BRRI_Threshing);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("BAU_Threshing")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.BAU_Threshing);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
+            else if(text.equals("HSTU_Threshing")){
+                setTitle(text);
+                listValue = getResources().getStringArray(R.array.HSTU_Threshing);
+                ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
+                listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        String value = listValue[i];
+                        Intent intent = new Intent(FifthPage.this,SixthPage.class);
+                        /*if(value.equals("SICMA Rotavator")){
+                            //Toast.makeText(FifthPage.this,"Value: "+value,Toast.LENGTH_SHORT).show();
+                            intent.putExtra("tag5","SICMA Rotavator") ;
+                        }*/
+                        intent.putExtra("tag5",value) ;
+                        startActivity(intent);
+                    }
+                });
+
+            }
         }
     }
 }

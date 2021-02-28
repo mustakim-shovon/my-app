@@ -23,7 +23,7 @@ public class FourthPage_1 extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();
         if(bundle!=null){
             String text = bundle.getString("tag3");
-            if(text.equals("Company")){
+            if(text.equals("Company_tillage")){
                 setTitle(text);
                 listValue = getResources().getStringArray(R.array.fourth_page_1_content);
                 ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.sample_layout, R.id.sample_layout_id,listValue );
@@ -44,10 +44,10 @@ public class FourthPage_1 extends AppCompatActivity {
                             intent.putExtra("tag4","Metal Private Ltd.") ;
                             startActivity(intent);
                         }
-                        else if(value.equals("Alim Industires Ltd.")){
+                        else if(value.equals("Alim Industries Ltd.")){
                             //Toast.makeText(FourthPage_1.this,"Features not implemented yet",Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(FourthPage_1.this,FifthPage.class);
-                            intent.putExtra("tag4","Alim Industires Ltd.") ;
+                            intent.putExtra("tag4","Alim Industries Ltd.") ;
                             startActivity(intent);
                         }
                         else if(value.equals("Abedin Equipment Ltd.")){
@@ -81,10 +81,10 @@ public class FourthPage_1 extends AppCompatActivity {
                             intent.putExtra("tag4","Metal Private Ltd._planting") ;
                             startActivity(intent);
                         }
-                        else if(value.equals("Alim Industires Ltd.")){
+                        else if(value.equals("Alim Industries Ltd.")){
                             //Toast.makeText(FourthPage_1.this,"Features not implemented yet",Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(FourthPage_1.this,FifthPage.class);
-                            intent.putExtra("tag4","Alim Industires Ltd._planting") ;
+                            intent.putExtra("tag4","Alim Industries Ltd._planting") ;
                             startActivity(intent);
                         }
                         else if(value.equals("Abedin Equipment Ltd.")){
@@ -118,10 +118,10 @@ public class FourthPage_1 extends AppCompatActivity {
                             intent.putExtra("tag4","Metal Private Ltd._Inter_cultural") ;
                             startActivity(intent);
                         }
-                        else if(value.equals("Alim Industires Ltd.")){
+                        else if(value.equals("Alim Industries Ltd.")){
                             //Toast.makeText(FourthPage_1.this,"Features not implemented yet",Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(FourthPage_1.this,FifthPage.class);
-                            intent.putExtra("tag4","Alim Industires Ltd._Inter_cultural") ;
+                            intent.putExtra("tag4","Alim Industries Ltd._Inter_cultural") ;
                             startActivity(intent);
                         }
                         else if(value.equals("Abedin Equipment Ltd.")){
@@ -155,10 +155,10 @@ public class FourthPage_1 extends AppCompatActivity {
                             intent.putExtra("tag4","Metal Private Ltd._Irrigation") ;
                             startActivity(intent);
                         }
-                        else if(value.equals("Alim Industires Ltd.")){
+                        else if(value.equals("Alim Industries Ltd.")){
                             //Toast.makeText(FourthPage_1.this,"Features not implemented yet",Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(FourthPage_1.this,FifthPage.class);
-                            intent.putExtra("tag4","Alim Industires Ltd._Irrigation") ;
+                            intent.putExtra("tag4","Alim Industries Ltd._Irrigation") ;
                             startActivity(intent);
                         }
                         else if(value.equals("Abedin Equipment Ltd.")){
@@ -192,10 +192,10 @@ public class FourthPage_1 extends AppCompatActivity {
                             intent.putExtra("tag4","Metal Private Ltd._Harvesting") ;
                             startActivity(intent);
                         }
-                        else if(value.equals("Alim Industires Ltd.")){
+                        else if(value.equals("Alim Industries Ltd.")){
                             //Toast.makeText(FourthPage_1.this,"Features not implemented yet",Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(FourthPage_1.this,FifthPage.class);
-                            intent.putExtra("tag4","Alim Industires Ltd._Harvesting") ;
+                            intent.putExtra("tag4","Alim Industries Ltd._Harvesting") ;
                             startActivity(intent);
                         }
                         else if(value.equals("Abedin Equipment Ltd.")){
@@ -229,10 +229,10 @@ public class FourthPage_1 extends AppCompatActivity {
                             intent.putExtra("tag4","Metal Private Ltd._Threshing") ;
                             startActivity(intent);
                         }
-                        else if(value.equals("Alim Industires Ltd.")){
+                        else if(value.equals("Alim Industries Ltd.")){
                             //Toast.makeText(FourthPage_1.this,"Features not implemented yet",Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(FourthPage_1.this,FifthPage.class);
-                            intent.putExtra("tag4","Alim Industires Ltd._Threshing") ;
+                            intent.putExtra("tag4","Alim Industries Ltd._Threshing") ;
                             startActivity(intent);
                         }
                         else if(value.equals("Abedin Equipment Ltd.")){

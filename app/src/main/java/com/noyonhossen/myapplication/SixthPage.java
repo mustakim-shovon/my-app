@@ -177,7 +177,7 @@ public class SixthPage extends AppCompatActivity {
                 listValue = getResources().getStringArray(R.array.sixth_page_content_37);
                 imageView.setImageResource(R.drawable.rit1);
             }
-            else if (text.equals("Rice Transplanter Daedong S3-680")) {
+            else if (text.equals("Rice Transplanter Daedong S3680")) {
                 listValue = getResources().getStringArray(R.array.sixth_page_content_38);
                 imageView.setImageResource(R.drawable.rit2);
             }
@@ -259,18 +259,332 @@ public class SixthPage extends AppCompatActivity {
                 imageView.setImageResource(R.drawable.rice_wheat_thresher);
 
             }
-            else if (text.equals("Metal Maize Thresher")) {
+            else if (text.equals("BRRI Thresher")) {
                 listValue = getResources().getStringArray(R.array.sixth_page_content_55);
+                imageView.setImageResource(R.drawable.brri_thresher);
+
+            }
+            ///Tillage workshop
+            else if (text.equals("BRRI Open Drum Thresher")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_56);
+                imageView.setImageResource(R.drawable.brri_odt);
+
+            }
+            else if (text.equals("BRRI Power Tiller")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_57);
+                imageView.setImageResource(R.drawable.brri_pt);
+
+            }
+            ///Tillge institute
+            else if (text.equals("Rice and Wheat Cutter")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_58);
+                imageView.setImageResource(R.drawable.brri_rwc);
+
+            }
+            else if (text.equals("BRRI Weeder")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_59);
+                imageView.setImageResource(R.drawable.brri_weeder);
+
+            }
+            else if (text.equals("BARI High Speed Rotary Tiller")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_60);
+                imageView.setImageResource(R.drawable.bari_tiller);
+
+            }
+            else if (text.equals("BARI PTOS")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_61);
+                imageView.setImageResource(R.drawable.bari_ptos);
+
+            }
+            else if (text.equals("Bed Planter(BARI)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_62);
+                imageView.setImageResource(R.drawable.bed_planter);
+
+            }
+            else if (text.equals("Zero Tillage Planter")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_63);
+                imageView.setImageResource(R.drawable.zero_tp);
+
+            }
+            else if (text.equals("USG Applicator")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_64);
+                imageView.setImageResource(R.drawable.usg_app);
+
+            }
+            else if (text.equals("BARI Reaper")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_65);
+                imageView.setImageResource(R.drawable.bari_reaper);
+
+            }
+            else if (text.equals("Potato Harvester")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_66);
+                imageView.setImageResource(R.drawable.p_harvester);
+
+            }
+            else if (text.equals("Multi Crop Thresher(BARI)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_67);
+                imageView.setImageResource(R.drawable.multi_crop);
+
+            }
+            else if (text.equals("Hand Maize Sheller(BARI)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_68);
+                imageView.setImageResource(R.drawable.hand_maize);
+
+            }
+            else if (text.equals("Power maize Sheller(BARI)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_69);
+                imageView.setImageResource(R.drawable.power_maize);
+
+            }
+            else if (text.equals("Garden boom Sprayer")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_70);
+                imageView.setImageResource(R.drawable.garden_bsprayer);
+
+            }
+            else if (text.equals("Solar Pump")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_71);
+                imageView.setImageResource(R.drawable.solar_pump);
+
+            }
+            else if (text.equals("Axial Flow Pump")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_72);
+                imageView.setImageResource(R.drawable.axial_flow);
+
+            }
+            else if (text.equals("Ground Nut Sheller")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_73);
+                imageView.setImageResource(R.drawable.groundnut_sheller);
+
+            }
+            else if (text.equals("Multi-crop Planter (AVMP101)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_74);
+                imageView.setImageResource(R.drawable.multi_cropalim);
+
+            }
+            else if (text.equals("Power tiller operator seeder (APTOS101)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_75);
+                imageView.setImageResource(R.drawable.pt_seeder_alim);
+
+            }
+            else if (text.equals("Bed planter (ABP101)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_76);
+                imageView.setImageResource(R.drawable.bedplanter_alim);
+
+            }
+            else if (text.equals("Rice transplanting planting(Alim)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_77);
+                imageView.setImageResource(R.drawable.rtp_alim);
+
+            }
+            else if (text.equals("U.S.G Applicator A20USG")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_78);
+                imageView.setImageResource(R.drawable.usg_alim);
+
+            }
+            else if (text.equals("Hand sprayer A18L")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_79);
+                imageView.setImageResource(R.drawable.hsprayer_alim1);
+
+            }
+            else if (text.equals("Hand sprayer A16L")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_80);
+                imageView.setImageResource(R.drawable.hsprayer_alim2);
+
+            }
+            else if (text.equals("Food pump sprayer APP07")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_81);
+                imageView.setImageResource(R.drawable.food_sprayeralim);
+
+            }
+            else if (text.equals("Low lift pump (ALP101)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_82);
+                imageView.setImageResource(R.drawable.llp_alim);
+
+            }
+            else if (text.equals("Axial Flow low lift pump (AAFP101)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_83);
+                imageView.setImageResource(R.drawable.axial_alim);
+
+            }
+            else if (text.equals("Power reaper APR101")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_84);
+                imageView.setImageResource(R.drawable.pr_alim1);
+
+            }
+            else if (text.equals("Power reaper APR102")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_85);
+                imageView.setImageResource(R.drawable.pr_alim2);
+
+            }
+            else if (text.equals("Hand reaper CG430F")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_86);
+                imageView.setImageResource(R.drawable.hand_reaper_alim);
+
+            }
+            else if (text.equals("Maize Thresher BARI Design")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_87);
+                imageView.setImageResource(R.drawable.maize_alim1);
+
+            }
+            else if (text.equals("Rice Thresher BRRI Design")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_88);
+                imageView.setImageResource(R.drawable.rice_threshe_alim);
+
+            }
+            else if (text.equals("Open drum Thresher A30ODT")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_89);
+                imageView.setImageResource(R.drawable.open_drum_alim);
+
+            }
+            else if (text.equals("Power Tiller Operated Moldboard Plow")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_90);
+                imageView.setImageResource(R.drawable.plow_bmwri);
+
+            }
+            else if (text.equals("Electrical Seeder (BMWRI)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_91);
+                imageView.setImageResource(R.drawable.eseeder_bmwri);
+
+            }
+            else if (text.equals("Power Tiller Operated seeder(BMWRI)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_92);
+                imageView.setImageResource(R.drawable.ptos_bmwri);
+
+            }
+            else if (text.equals("Bed Planter(BMWRI)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_93);
+                imageView.setImageResource(R.drawable.bed_bmwri);
+
+            }
+            else if (text.equals("Potato Planter(BMWRI)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_94);
+                imageView.setImageResource(R.drawable.pplanter_bmwri);
+
+            }
+            else if (text.equals("Multi Nozzle Sprayer (BMWRI)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_95);
+                imageView.setImageResource(R.drawable.mn_bmwri);
+
+            }
+            else if (text.equals("Boom Sprayer (BMWRI)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_96);
+                imageView.setImageResource(R.drawable.bsprayer_bmwri);
+
+            }
+            else if (text.equals("Portable Reaper(BMWRI)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_97);
+                imageView.setImageResource(R.drawable.preaper_bmwri);
+
+            }
+            else if (text.equals("Mobile Maize Sheller (BMWRI)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_98);
+                imageView.setImageResource(R.drawable.bmwri_maize);
+
+            }
+            else if (text.equals("Power Maize Sheller (BMWRI)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_99);
+                imageView.setImageResource(R.drawable.power_bmwri);
+
+            }
+            else if (text.equals("Mold Board Plow (Krishi)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_100);
+                imageView.setImageResource(R.drawable.krishi_mbplow);
+            }
+            else if (text.equals("Potato Planter 1 (Krishi)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_101);
+                imageView.setImageResource(R.drawable.krishi_pp);
+
+            }
+            else if (text.equals("Potato Planter 2 (Krishi)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_102);
+                imageView.setImageResource(R.drawable.krishi_pp2);
+
+            }
+            else if (text.equals("Maize Planter and Seeder (Krishi)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_103);
+                imageView.setImageResource(R.drawable.krishi_mplanter);
+
+            }
+            else if (text.equals("Zero tillage Wheat")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_104);
+                imageView.setImageResource(R.drawable.krishi_zerotill);
+
+            }
+            else if (text.equals("Bed planter(Krishi)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_105);
+                imageView.setImageResource(R.drawable.krishi_bed);
+
+            }
+            else if (text.equals("Reaper (Krishi)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_106);
+                imageView.setImageResource(R.drawable.krishi_reaper);
+
+            }
+            else if (text.equals("Maize Thresher(Krishi)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_107);
+                imageView.setImageResource(R.drawable.krishi_maize);
+
+            }
+            else if (text.equals("Thresher (Krishi)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_108);
+                imageView.setImageResource(R.drawable.krishi_thresher);
+
+            }
+            else if (text.equals("Rice Transplanter (Uttaran)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_109);
+                imageView.setImageResource(R.drawable.uttaran_rt);
+
+            }
+            else if (text.equals("Power Tiller Seeder (BARI Model)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_110);
+                imageView.setImageResource(R.drawable.uttaran_pt);
+
+            }
+            else if (text.equals("Uttaran Power Weeder (BARI Model)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_111);
+                imageView.setImageResource(R.drawable.uttaran_pw);
+
+            }
+            else if (text.equals("Battery Operated Power Weeder (BARI Model)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_112);
+                imageView.setImageResource(R.drawable.uttaran_bopw);
+
+            }
+            else if (text.equals("Uttaran Power Tiller Operated Reaper")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_113);
+                imageView.setImageResource(R.drawable.uttaran_ptor);
+
+            }
+            else if (text.equals("Potato Harvester (BARI Model)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_114);
+                imageView.setImageResource(R.drawable.uttaran_ph);
+
+            }
+            else if (text.equals("Uttaran Reaper Binder")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_115);
+                imageView.setImageResource(R.drawable.uttaran_rb);
+
+            }
+            else if (text.equals("Uttaran Reaper")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_116);
+                imageView.setImageResource(R.drawable.uttaran_reaper);
+
+            }
+            else if (text.equals("Uttaran Maize Sheller")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_117);
+                imageView.setImageResource(R.drawable.uttaran_maize);
+
+            }
+            else if (text.equals("Uttaran Wheat and Maize Thresher")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_118);
+                imageView.setImageResource(R.drawable.uttaran_mwt);
+
+            }
+            else if (text.equals("Metal Maize Thresher")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_119);
                 imageView.setImageResource(R.drawable.metal_maize_thresher);
 
             }
-
-
-
-
-
-
-            //4
 
 
             value = listValue[0] + "\n";
