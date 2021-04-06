@@ -520,7 +520,7 @@ public class SixthPage extends AppCompatActivity {
                 imageView.setImageResource(R.drawable.krishi_reaper);
 
             }
-            else if (text.equals("Maize Thresher(Krishi)")) {
+            else if (text.equals("Maize Sheller(Krishi)")) {
                 listValue = getResources().getStringArray(R.array.sixth_page_content_107);
                 imageView.setImageResource(R.drawable.krishi_maize);
 
@@ -585,6 +585,57 @@ public class SixthPage extends AppCompatActivity {
                 imageView.setImageResource(R.drawable.metal_maize_thresher);
 
             }
+            else if (text.equals("BAU Urea Applicator (1)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_120);
+                imageView.setImageResource(R.drawable.bau_inter1);
+
+            }
+            else if (text.equals("BAU Urea Applicator (2)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_121);
+                imageView.setImageResource(R.drawable.bau_inter2);
+
+            }
+            else if (text.equals("BAU Urea Applicator (3)")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_122);
+                imageView.setImageResource(R.drawable.bau_inter3);
+
+            }
+            else if (text.equals("BAU Hand Sprayer")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_123);
+                imageView.setImageResource(R.drawable.bau_inter4);
+
+            }
+            else if (text.equals("BAU ZIA Fertilizer and Seed Applicator")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_124);
+                imageView.setImageResource(R.drawable.bau_inter5);
+
+            }
+            else if (text.equals("Germinated Seed Applicator")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_125);
+                imageView.setImageResource(R.drawable.bau_planting1);
+
+            }
+            else if (text.equals("BAU Transplanter")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_126);
+                imageView.setImageResource(R.drawable.bau_planting2);
+
+            }
+            else if (text.equals("BAU Maize Thresher")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_127);
+                imageView.setImageResource(R.drawable.bau_thresher1);
+
+            }
+            else if (text.equals("BAU Open Drum Thresher")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_128);
+                imageView.setImageResource(R.drawable.bau_thresher2);
+
+            }
+            else if (text.equals("Rice or Wheat Cutter Machine")) {
+                listValue = getResources().getStringArray(R.array.sixth_page_content_129);
+                imageView.setImageResource(R.drawable.bau_harvesting);
+
+            }
+
 
 
             value = listValue[0] + "\n";
